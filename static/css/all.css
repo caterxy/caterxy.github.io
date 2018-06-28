@@ -30,6 +30,7 @@ ul li{
 }
 .player{
     overflow:hidden;
+    -webkit-transition: box-shadow 0.5s;
 }
 .player p{
     width: 150px;
