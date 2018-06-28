@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="xy,xueguoyong,薛国勇">
+    <!-- 移动端自适应布局-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- 引入css -->
+    <link rel="stylesheet" type="text/css" href="./css/all.css">
+    <!-- 引入js -->
+    <script src="./js/jquery-min.js"></script>
+    <script src="./js/BorderType.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- 网站logo -->
+    <link rel="icon" href="./image/favicon.bmp" type="image/x-icon" />
+    <title>九月丶过半</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/">
+                <h1 class="title">九月丶过半</h1>
+            </a>
+            <ul class="nav">
+                <li>阅读</li>
+                <li><a href="./pages/idealist.html">想法</a></li>
+                <li><a href="./pages/game.html">游戏</a></li>
+                <li>
+                    <a href="./pages/about.html">关于</a>
+                </li>
+            </ul>
+            <div class="whosyourdaddy"></div>
+            <hr/>
+        </div>
+        <div class="body">
+        <div class="player">
+            <p id="voiceName">我天性不宜交际</p>
+            <audio controls="controls" id="vPlayer" src="./voice/我天性不宜交际.ogg">
+            <a href="./voice/我天性不宜交际.mp3">你的浏览器不支持。点击此处播放</a>
+            </audio>
+        </div>
+        <div class="list">
+            <p>播放列表</p>
+            <ul>
+                <hr/>
+                <li onclick="play(0);">我天性不宜交际</li>
+                <hr/>
+                <li onclick="play(1);">武林外传_1</li>
+                <hr/>
+                <li onclick="play(2);">武林外传_2</li>
+                <hr/>
+                <li onclick="play(3);">武林外传_3</li>
+                <hr/>
+            </ul>
+            <div class="whosyourdaddy"></div>
+        </div>
+        <!--
+            <div class="day">17.11.4</div>
+            <div class="read">
+                <audio controls="controls">
+                    <source src="./voice/我天性不宜交际.ogg" type="audio/ogg">
+                    <source src="./voice/我天性不宜交际.mp3" type="audio/mpeg">
+                    <a href="./voice/我天性不宜交际.mp3">你的浏览器不支持。点击此处播放</a>
+                </audio>
+                <p> - 周国平 《风中的纸屑》</p>
+            </div>
+            <div class="day">17.11.14</div>
+            <div class="read">
+                <div class="number">1</div>
+                <audio controls="controls">
+                    <source src="./voice/武林外传_1.ogg" type="audio/ogg">
+                    <source src="./voice/武林外传_1.mp3" type="audio/mpeg">
+                    <a href="./voice/武林外传_1.mp3">你的浏览器不支持。点击此处播放</a>
+                </audio>
+                <div class="number">2</div>
+                <audio controls="controls">
+                    <source src="./voice/我天性不宜交际.ogg" type="audio/ogg">
+                    <source src="./voice/武林外传_1.mp3" type="audio/mpeg">
+                    <a href="./voice/武林外传_1.mp3">你的浏览器不支持。点击此处播放</a>
+                </audio>
+                <div class="number">3</div>
+                <audio controls="controls">
+                    <source src="./voice/我天性不宜交际.ogg" type="audio/ogg">
+                    <source src="./voice/武林外传_1.mp3" type="audio/mpeg">
+                    <a href="./voice/武林外传_1.mp3">你的浏览器不支持。点击此处播放</a>
+                </audio>
+                <p> - 房昊 《用王家卫的方式改编 武林外传 》</p>
+            </div>
+
+            <div></div>
+            <div></div>
+            -->
+        </div>
+        <div class="footer" onselectstart="return false;">
+            <hr/>
+            <span>
+                <p>© 2017 Cater xy</p>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
