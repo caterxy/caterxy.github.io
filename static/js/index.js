@@ -14,7 +14,7 @@ else {
 };
 
 window.onload=function (){
-    document.getElementById('vPlayer').src="./voice/"+voiceSrc[num]+"."+voiceType;
+    document.getElementById('vPlayer').src="./static/voice/"+voiceSrc[num]+"."+voiceType;
 
 }
 
@@ -22,6 +22,6 @@ window.onload=function (){
 function play(num) {
     var vPlayer=document.getElementById('vPlayer');
     document.getElementById("voiceName").innerHTML=voiceSrc[num];
-    vPlayer.src="./voice/"+voiceSrc[num]+"."+voiceType;
+    vPlayer.src="./static/voice/"+voiceSrc[num]+"."+voiceType;
     vPlayer.play();
 }
